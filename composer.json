@@ -1,0 +1,19 @@
+{
+    "name": "fabioschneider2009/ecommerce",
+    "authors": [
+        {
+            "name": "Fábio Bastos Schneider",
+            "email": "fabioschneider2009@hotmail.com"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "vendor\\hcodebr\\php-classes\\src"
+        }
+    }
+}
